@@ -1,0 +1,20 @@
+.logo{
+    width: 150px;
+}
+
+header{
+    justify-content: space-between;
+}
+
+.navbar{
+    background-color: white !important;
+    --bs-navbar-nav-link-padding-x: 2rem;
+}
+
+h1{
+    padding-bottom: 2rem;
+}
+
+li{
+    font-size: 20px;
+}

@@ -1,0 +1,77 @@
+.fs-5{
+    width: 100%;
+}
+
+.img-fluid{
+    border-radius: 25px;
+    box-shadow: .5rem .5rem 10px #a3c2f0;
+}
+
+.card{
+    border-radius: 0 30px 0 0;
+}
+
+.maps{
+    border-radius: 20px;
+    box-shadow: .3rem .3rem 3px #a3c2f0;
+}
+
+.optometria{
+    padding-top: 2rem;
+}
+
+.optometria_content, .contacto_content{
+    justify-content: space-evenly;
+}
+
+.list_optometria{
+    text-align: left;
+    padding-bottom: .75rem;
+}
+
+.info{
+    padding-bottom: 1.5rem;
+}
+
+.data_info{
+    padding: 1.5rem 0 1.5rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list-group-item{
+    color: darkblue;
+    /* color: #0d6efd; */
+}
+
+a {
+    text-decoration: none;
+	cursor:pointer; 
+} 
+
+.map_optometria{
+    border:0; 
+}
+
+.ubicacion{
+    margin-bottom: 0;
+    text-align: right;
+}
+
+footer{
+    padding: 1rem 0 1rem 0;
+}
+
+@media (min-width:1024px){
+    .list_optometria{
+        width: 50%
+    }
+}
+
+@media (max-width:768px){
+    
+    .ubicacion, h2{
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+}
