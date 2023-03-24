@@ -39,6 +39,14 @@
     justify-content: space-evenly;
 }
 
+.btn{
+    background-color: rgb(2, 158, 2);
+}
+
+.btn-primary{
+    --bs-btn-hover-bg: darkgreen;
+}
+
 .list-group-item{
     color: darkblue;
     /* color: #0d6efd; */
